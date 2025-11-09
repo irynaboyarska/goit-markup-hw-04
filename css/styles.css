@@ -210,16 +210,6 @@ img{
     padding: 120px 0;
 }
 
-.values-list{
-    display: flex;
-    gap: 24px;
-    margin: 0 auto;
-}
-
-.values-list-item{
-    width: calc((100% - 72px) / 4);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -233,6 +223,29 @@ img{
     overflow: hidden;
 }
 
+.values-list{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.values-list-item{
+    width: calc((100% - 72px) / 4);
+    width: 100%;
+}
+
+.icon-container{
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
+.icon{
+    display: block;
+    margin: 0 auto;
+}
 .values-item-title{
     font-weight: 500;
     font-size: 20px;
