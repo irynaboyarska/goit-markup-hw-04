@@ -449,7 +449,6 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 
